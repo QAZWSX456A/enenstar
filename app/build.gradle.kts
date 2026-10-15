@@ -26,4 +26,11 @@ android {
 
 dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
+    
+    // 引入 CameraX 核心库（眼睛）
+    val cameraxVersion = "1.3.4"
+    implementation("androidx.camera:camera-core:$cameraxVersion")
+    implementation("androidx.camera:camera-camera2:$cameraxVersion")
+    implementation("androidx.camera:camera-lifecycle:$cameraxVersion")
+    implementation("androidx.camera:camera-view:$cameraxVersion")
 }
